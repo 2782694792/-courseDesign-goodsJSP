@@ -1,0 +1,27 @@
+<%@ page contentType="text/html; charset=gb2312"%>
+
+	<script language="javascript" type="text/javascript">
+		alert("欢迎进入订单查询页面！");
+	</script>
+	<style type="text/css">
+		.customer{
+			width: 80px;
+			height: 40px;
+		}
+		.td2{
+			width: 240px;
+			height: 10px;
+		}
+		.table2{
+			border: yellow solid 2px;
+		}
+	</style>
+<div>
+	<ul>
+      	<li><a href="OrderQuery.jsp"><font color=green><b>刷新</b></font></a> | 
+      	<a href="CustomerLogin_J.jsp"><font color=white>顾客</font></a> | 
+      	<a href="SalesmanLogin_J.jsp"><font color=yellow>售货员</font></a> | 
+      	<a href="AdministratorLogin_J.jsp"><font color=white>管理员</font></a> | 
+      	<a href="exit"><font color=red><b>退出系统</b></font></a>
+    </ul>
+</div>

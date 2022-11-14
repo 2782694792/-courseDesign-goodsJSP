@@ -1,0 +1,80 @@
+<%@ page contentType="text/html; charset=gb2312"%>
+<style type="text/css">
+		.option{
+ 		 /*用div的样式代替select的样式*/
+    		margin: 0 26.3%;
+   			width: 650px;
+   			height: 650px;
+    		border-radius: 6px;	
+  		/*盒子阴影修饰作用*/
+ 			box-shadow: 0 0 6px #ccc;	
+   			border: 3px solid #cccccc;
+    		position: relative;
+  		}
+		*{
+			font-family: 微软雅黑;
+		}
+		body{
+            top: 0;
+            left: 0;
+            width:100%;
+            height:100%;
+            background-repeat: repeat;
+            background-size: cover;
+            background-position: center 0;
+			background: url(image/SEER.png);
+		}
+		li{
+			list-style: none;
+			font-size: 23px;
+		}
+		.td2{
+			width: 240px;
+			height: 10px;
+		}
+		.table2{
+			border: yellow solid 2px;
+		}
+		hr {
+			border: 0;
+			height: 3px;
+			background: #333;
+			background-image: linear-gradient(to right, #ccc, #333, #ccc);
+		}
+
+		a:link{
+			color: #3300cc;
+		}
+		a:visited {color: blue}
+		a:hover {color: red}
+		a:active {
+			color: red；
+		}
+		 [v-cloak] {
+		 	display: none;
+		 }
+		 a:link,a:visited{
+          	text-decoration:none;
+         }
+         /*decoration--对文本的修饰；none--默认标准文本*/
+         <!-- text-decoration:blink;
+		             blink--文本闪烁 -->
+         a:hover{ 
+          	text-decoration:underline;  
+		  /*underline--鼠标放上去有下划线*/
+		  	text-decoration:overline;
+		  /*overline--文本上的一条线*/
+		  	<!-- text-decoration:line-through;
+		  	line-through -- 穿过文本下的一条线-->
+		 } 
+  		.s{
+  			height: 40px;
+  			width: 100px;
+  		}
+  		.s0{
+  			height: 35px;
+  			width: 100px;
+  		}
+	</style>
+	
+	

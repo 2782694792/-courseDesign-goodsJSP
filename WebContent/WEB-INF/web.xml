@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+/*　——————————————  退出系统　　——————————————*/
+	<servlet> 
+    	<servlet-name>exit</servlet-name>
+    	<servlet-class>zsb.servlet.Exit</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>exit</servlet-name>
+    	<url-pattern>/exit</url-pattern>
+	</servlet-mapping>
+/*　——————————————  顾客注册　　——————————————*/
+	<servlet> 
+    	<servlet-name>CRegister</servlet-name>
+    	<servlet-class>zsb.servlet.CustomerRegister_S</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>CRegister</servlet-name>
+    	<url-pattern>/CRegister</url-pattern>
+	</servlet-mapping>
+/*　——————————————  顾客登录　　——————————————*/
+	<servlet> 
+    	<servlet-name>CLogin</servlet-name>
+    	<servlet-class>zsb.servlet.CustomerLogin_S</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>CLogin</servlet-name>
+    	<url-pattern>/CLogin</url-pattern>
+	</servlet-mapping>
+/*　——————————————  售货员注册　　——————————————*/
+	<servlet> 
+    	<servlet-name>SRegister</servlet-name>
+    	<servlet-class>zsb.servlet.SalesmanRegister_S</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>SRegister</servlet-name>
+    	<url-pattern>/SRegister</url-pattern>
+	</servlet-mapping>
+/*　——————————————  售货员登录　　——————————————*/
+	<servlet> 
+    	<servlet-name>SLogin</servlet-name>
+    	<servlet-class>zsb.servlet.SalesmanLogin_S</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>SLogin</servlet-name>
+    	<url-pattern>/SLogin</url-pattern>
+	</servlet-mapping>
+/*　——————————————  管理员注册　　——————————————*/
+	<servlet> 
+    	<servlet-name>ARegister</servlet-name>
+    	<servlet-class>zsb.servlet.AdministratorRegister_S</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>ARegister</servlet-name>
+    	<url-pattern>/ARegister</url-pattern>
+	</servlet-mapping>
+/*　——————————————  管理员登录　　——————————————*/
+	<servlet> 
+    	<servlet-name>ALogin</servlet-name>
+    	<servlet-class>zsb.servlet.AdministratorLogin_S</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>ALogin</servlet-name>
+    	<url-pattern>/ALogin</url-pattern>
+	</servlet-mapping>
+/*　——————————————  商品类型查询　　——————————————*/
+	<servlet> 
+    	<servlet-name>GTQuery</servlet-name>
+    	<servlet-class>zsb.servlet.GoodsTypeQuery_S</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>GTQuery</servlet-name>
+    	<url-pattern>/GTQuery</url-pattern>
+	</servlet-mapping>
+/*　——————————————  商品加入购物车　　——————————————*/
+	<servlet> 
+    	<servlet-name>GCinsert</servlet-name>
+    	<servlet-class>zsb.servlet.ShopCart_S</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>GCinsert</servlet-name>
+    	<url-pattern>/GCinsert</url-pattern>
+	</servlet-mapping>
+/*　——————————————  商品查询　　——————————————*/
+	<servlet> 
+    	<servlet-name>GQuery</servlet-name>
+    	<servlet-class>zsb.servlet.GoodsQuery_S</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>GQuery</servlet-name>
+    	<url-pattern>/GQuery</url-pattern>
+	</servlet-mapping>
+/*　——————————————  商品移出购物车　　——————————————*/
+	<servlet> 
+    	<servlet-name>SCDel</servlet-name>
+    	<servlet-class>zsb.servlet.CShopCartDel_S</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>SCDel</servlet-name>
+    	<url-pattern>/SCDel</url-pattern>
+	</servlet-mapping>
+/*　——————————————  清空购物车　　——————————————*/
+	<servlet> 
+    	<servlet-name>SCReset</servlet-name>
+    	<servlet-class>zsb.servlet.CShopCartRet_S</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>SCReset</servlet-name>
+    	<url-pattern>/SCReset</url-pattern>
+	</servlet-mapping>
+/*　——————————————  生成订单　　——————————————*/
+	<servlet> 
+    	<servlet-name>COInsert</servlet-name>
+    	<servlet-class>zsb.servlet.OrderInsert_S</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>COInsert</servlet-name>
+    	<url-pattern>/COInsert</url-pattern>
+	</servlet-mapping>
+</web-app>

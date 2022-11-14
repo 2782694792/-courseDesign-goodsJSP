@@ -1,0 +1,23 @@
+<%@ page contentType="text/html; charset=gb2312"%>
+<div align="center">
+	<marquee>
+		<span style="font-weight: bolder;font-size: 30px;color: white;">
+			Welcom to Stationery sales system! 
+		</span>
+	</marquee>
+    <font color="red"><h3>文 具 销 售 系 统</h3></font>
+    <table>
+  		<tr align="bottom">
+            <td><a href="homepage.jsp">主页</a><b> | </b></td>
+           	<td><a href="CustomerLogin_J.jsp">登录</a><b> | </b></td>
+            <td><a href="CustomerQuery_J.jsp">个人信息</a><b> | </b></td>
+           	<td><a href="GoodsTypeQuery_J.jsp">查询文具类型</a><b> | </b></td>
+            <td><a href="GoodsQuery.jsp">查询文具</a><b> | </b></td>
+            <td><a href="ShopCartQuery.jsp">购物车</a><b> | </b></td>
+            <td><a href="OrderQuery_J.jsp">订单</a><b> | </b></td>
+            <td><a href="searchCosmetic.jsp">积分兑换</a><b> | </b></td>
+            <td><a href="Clogout_J.jsp">退出登录</a></td>
+        </tr>
+     </table>
+    <br>
+</div>

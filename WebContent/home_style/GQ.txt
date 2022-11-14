@@ -1,0 +1,37 @@
+<%@ page contentType="text/html; charset=gb2312"%>
+
+	<script language="javascript" type="text/javascript">
+		alert("欢迎进入文具查询页面！");
+	</script>
+	<style type="text/css">
+		.option{
+ 		 /*用div的样式代替select的样式*/
+    		margin: 0 26.3%;
+   			width: 650px;
+   			height: 550px;
+    		border-radius: 5px;	
+  		/*盒子阴影修饰作用*/
+ 			box-shadow: 0 0 5px #ccc;	
+   			border: 1px solid #cccccc;
+    		position: relative;
+  		}
+  		select{
+  			margin: 5px 0 0 0;
+  			width: 120px;
+   			height: 50px;
+   			font-size: 20px;
+  		}
+  		.s{
+  			height: 40px;
+  			width: 100px;
+  		}
+	</style>
+<div>
+	<ul>
+      	<li><a href="GoodsQuery_J.jsp"><font color=green><b>刷新</b></font></a> | 
+      	<a href="CustomerLogin_J.jsp"><font color=white>顾客</font></a> | 
+      	<a href="SalesmanLogin_J.jsp"><font color=yellow>售货员</font></a> | 
+      	<a href="AdministratorLogin_J.jsp"><font color=white>管理员</font></a> | 
+      	<a href="exit"><font color=red><b>退出系统</b></font></a>
+    </ul>
+</div>

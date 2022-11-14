@@ -1,0 +1,24 @@
+<%@ page contentType="text/html; charset=gb2312"%>
+
+	<script language="javascript" type="text/javascript">
+		alert("欢迎进入管理员注册页面！");
+	</script>
+	<style type="text/css">
+		.administrator{
+			width: 80px;
+			height: 40px;
+		}
+		.input_text{
+			height: 25px;
+		}
+	</style>
+	
+<div>
+	<ul>
+      	<li><a href="AdministratorRegister_J.jsp">刷新</a>
+      	<a href="CustomerLogin_J.jsp">顾客</a>
+      	<a href="SalesmanLogin_J.jsp">售货员</a>
+      	<a href="AdministratorLogin_J.jsp">管理员</a>
+      	<a href="exit">退出系统</a>
+    <br>
+</div>

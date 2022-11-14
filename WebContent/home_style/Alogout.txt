@@ -1,0 +1,14 @@
+<%@ page contentType="text/html; charset=gb2312"%>
+
+	<script language="javascript" type="text/javascript">
+		alert("进行管理员退出登录！");
+	</script>
+<div>
+	<ul>
+      	<li><a href="Alogout_J.jsp"><font color=green><b>刷新</b></font></a> | 
+      	<a href="CustomerLogin_J.jsp"><font color=white>顾客</font></a> | 
+      	<a href="SalesmanLogin_J.jsp"><font color=yellow>售货员</font></a> | 
+      	<a href="AdministratorLogin_J.jsp"><font color=white>管理员</font></a> | 
+      	<a href="exit"><font color=red><b>退出系统</b></font></a>
+    </ul>
+</div>
